@@ -4,10 +4,21 @@
 print("Hello, World!")  # Prints the string "Hello, World!" to the terminal window.
 
 # 1 - 1 Concatenation
-print("Py" + "Charm")  # Prints toothbrush
+print("Py" + "Charm")  # Prints PyCharm
 
 # 1 - 2 Concat string with number
-print("My favorite number is: " + str(7))  # Prints My favorite number is: 8
+print("My favorite number is: " + str(7))  # Prints My favorite number is: 7
+
+# 1 - 3 String methods
+my_string = 'HeLlO wOrLd'
+print(my_string.capitalize())  # Capitalize the first letter and convert the remaining letters to lowercase
+print(my_string.upper())  # Capitalize all letters
+print(my_string.lower())  # Lowercase all the letters
+print(my_string.casefold())  # Like lower but stronger, for all languages and symbols
+print(my_string.swapcase())  # Change the uppercase to lowercase and vice versa
+print(my_string.title())  # Capitalize the first letter of every world
+print(my_string.strip()) # Delete the unwanted saces or any other characters
+
 
 # 2 - Numbers :
 # 2 - 1 Integers
